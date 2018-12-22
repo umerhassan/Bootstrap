@@ -40,7 +40,7 @@ body {
 /* HEADER */
 
 .header{
-	background:url(../images/background.jpg) left top repeat;
+	background:  url(../images/nikita-kachanovsky-445394-unsplash.jpg) left top repeat;
 	text-align:center;
 	padding: 20em 0em;
 	margin-top: -10em ;
@@ -49,6 +49,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+
 }
 
 .header-title > h1{
@@ -239,8 +241,15 @@ body {
 }
 
 .Portfolio-content {
-	background:url(../images/background.jpg) left top repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/brayden-law-1240475-unsplash.jpg)  bottom no-repeat;
+	background-size:100% ;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
+
 
 /* TEAM */
 
@@ -303,14 +312,15 @@ body {
   padding: 10px 30px;
   font-style: normal;
   display: inline-block;
-  left: 170px;
+  left: 180px;
 	font-weight: 700;
 	text-decoration: none;
 }
 .team-content > li span .team-img {
   width: 120px;
   margin-top: 250px;
-
+	border: 3px solid white;
+	border-radius: 50%;
 
 }
 
@@ -346,6 +356,16 @@ body {
 
 /* Testimonials */
 
+.testimomials-content {
+	background:url(../images/section-bg1.jpg)  bottom no-repeat;
+	background-size:100% ;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .col-center {
 	margin: 0 auto;
 	float: none;
@@ -355,7 +375,7 @@ body {
 	padding: 0;
 }
 .carousel .item {
-	color: #999;
+	color: rgb(231, 224, 225);
 	font-size: 14px;
     text-align: center;
 	overflow: hidden;
@@ -384,22 +404,94 @@ body {
     display: inline-block;
 }
 
-.carousel-indicators li, .carousel-indicators li.active {
+.carousel-indicators1 li, .carousel-indicators1 li.active {
 	width: 10px;
 	height: 10px;
 	margin: 0px 3px;
-	border-radius: 50%;
 }
-.carousel-indicators li {
+.carousel-indicators1 li {
 	background: white;
 	margin-top: 30px;
 }
-.carousel-indicators li.active {
+.carousel-indicators1 li.active {
 	background: #555;
 }
 
+.carousel-indicators1 {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-indicators1 li {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-indicators1 li::before {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  content: "";
+}
+
+.carousel-indicators1 li::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  content: "";
+}
+
+.carousel-indicators1 .active {
+  background-color: #fff;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
 
 /* CONTACT US */
+
+.contact-content {
+	background:url(../images/bg-map.png)  top repeat;
+	background-size:100% ;
+  background-size: cover;
+
+}
 
 .main-section.contact{
 	padding:90px 0 100px;
@@ -482,23 +574,21 @@ body {
 .input-text{
 	padding:15px 16px;
 	border:1px solid #ccc;
-	width:100%;
-	height:50px;
-	display:block;
-	border-radius:4px;
 	font-size:15px;
 	color:#aaa;
 	font-family: 'Open Sans', sans-serif;
 	margin:0 0 15px 0;
 	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
+	width:100%;
+	height:50px;
+	display:block;
+	border-radius:4px;
+
+
 }
 .input-text:focus {
 	border: 1px solid #7cc576;
 	outline:0;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
-	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
 }
 
@@ -538,3 +628,24 @@ body {
 
 .mapouter{text-align:right;height:400px;width:450px;}
 .gmap_canvas {overflow:hidden;background:none!important;height:400px;width:450px;}
+
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.sub1{
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.sub1  p{
+	padding: 10px;
+	margin:0px;
+}
+
+.sub1  strong{
+	color:#ff90ae;
+}
