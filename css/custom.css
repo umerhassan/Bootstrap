@@ -37,6 +37,45 @@ body {
   font-weight: 500;
 }
 
+.main-nav li img {
+	margin: 0em 2em;
+}
+
+.main-nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1017px) {
+  .main-nav li a {
+		display: none;
+	}
+	.main-nav li img {
+		float: left;
+		display: block;
+
+	}
+  .main-nav a.icon {
+    float: right;
+    display: block;
+		margin:10px
+
+  }
+
+	.main-nav .responsive {position: relative;}
+  .main-nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .main-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+		background-color: green;
+  }
+
+}
+
 /* HEADER */
 
 .header{
@@ -593,7 +632,7 @@ body {
 }
 
 .input-text.text-area{
-	height:165px;
+	height:200px;
 	resize:none;
 	overflow:auto;
 }
