@@ -90,8 +90,17 @@ body {
 	margin-top: -21em !important;
 }
 
-.header-title > h1{
-	position:absolute;
+.mobile-nav ul{
+position: absolute;
+    width: 100%;
+    max-width: 600px;
+    background: #333;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 110px;
+    z-index: 9;
 }
 
 
