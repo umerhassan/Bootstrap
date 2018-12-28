@@ -37,15 +37,21 @@ body {
   font-weight: 500;
 }
 
-.mobile-nav {
-	display: none;
-}
+
 .main-nav li img {
 	margin: 0em 2em;
 }
 
 .mobile-nav .icon {
   display: none;
+}
+
+.mobile-nav li{
+	display: none;
+}
+
+.mobile-nav img{
+	display: none;
 }
 
 @media screen and (max-width: 1017px) {
@@ -56,46 +62,45 @@ body {
 		display: none;
 
 	}
-	.mobile-nav .responsive{
-		display: block;
-	}
-	.mobile-nav li img {
-		display: block;
+
+.mobile-nav img{
+		display: inline-block;
 		float: left;
-
 	}
-  .mobile-nav a.icon {
-    float: right;
-    display: block;
-		margin:10px;
-		background-color: green;
 
-  }
+.mobile-nav .icon{
+	display: inline;
+	float: right;
+	padding-right: 4%;
 
-	.mobile-nav .responsive {
-		position: absolute;
-		width: 100%;
-		right: 0;
+}
 
-	}
-  .main-nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .main-nav.responsive a {
-    float: none;
-    display: block;
-    text-align: right;
-		background-color: green;
-  }
+.responsive li{
+	display: block;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.responsive li a{
+	color: white;
+		padding-right: 4%;
+}
+
+.header {
+	margin-top: -21em !important;
+}
+
+.header-title > h1{
+
+}
+
 
 }
 
 @media screen and (max-width: 771px) {
 .service-box {
 	display: block;
-	margin: auto !important;
+	margin: auto;
 	position: relative;
 	padding: 1% 12%;
 
