@@ -50,7 +50,7 @@ body {
 	display: none;
 }
 
-.mobile-nav img{
+.logo{
 	display: none;
 }
 
@@ -58,12 +58,12 @@ body {
   .main-nav li a {
 		display: none;
 	}
-	.main-nav li img {
+	.main-nav li img{
 		display: none;
 
 	}
 
-.mobile-nav img{
+.logo{
 		display: inline-block;
 		float: left;
 	}
@@ -91,7 +91,7 @@ body {
 }
 
 .header-title > h1{
-
+	position:absolute;
 }
 
 

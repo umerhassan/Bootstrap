@@ -29,42 +29,47 @@
 
 	<nav class="main-nav-outer">
 		<div class="container-fluid">
-			<ul class="main-nav" id="main-nav">
-				<li><a href="#header">Home</a></li>
-				<li><a href="#service">Services</a></li>
-				<li><a href="#Portfolio">Portfolio</a></li>
-				<li ><img src="images/logo.png" alt=""></li>
-				<li><a href="#team">Team</a></li>
-				<li><a href="#testimomials">Testimonials</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-      <ul class="mobile-nav" id="mobile-nav">
+      <div class="main-nav" id="main-nav">
+  			<ul>
+  				<li><a href="#header">Home</a></li>
+  				<li><a href="#service">Services</a></li>
+  				<li><a href="#Portfolio">Portfolio</a></li>
+  				<li ><img src="images/logo.png" alt=""></li>
+  				<li><a href="#team">Team</a></li>
+  				<li><a href="#testimomials">Testimonials</a></li>
+  				<li><a href="#contact">Contact</a></li>
+  			</ul>
+      </div>
+			<div class="logo">
         <img src="images/logo.png" alt="">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars" style="font-size:50px;color:white"></i>
-        </a>
-        <br><br><br>
-        <li><a href="#header">Home</a></li>
-				<li><a href="#service">Services</a></li>
-				<li><a href="#Portfolio">Portfolio</a></li>
-				<li><a href="#team">Team</a></li>
-				<li><a href="#testimomials">Testimonials</a></li>
-				<li><a href="#contact">Contact</a></li>
-
-			</ul>
-
-		</div>
+      </div>
+      <div class="mobile-nav" id="mobile-nav">
+        <ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars" style="font-size:50px;color:white"></i>
+          </a>
+          <br><br><br>
+          <li><a href="#header">Home</a></li>
+  				<li><a href="#service">Services</a></li>
+  				<li><a href="#Portfolio">Portfolio</a></li>
+  				<li><a href="#team">Team</a></li>
+  				<li><a href="#testimomials">Testimonials</a></li>
+  				<li><a href="#contact">Contact</a></li>
+			   </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
     <script>
-    function myFunction() {
-      var x = document.getElementById("mobile-nav");
-      if (x.className === "mobile-nav") {
-          x.className += " responsive";
-      } else {
-        x.className = "mobile-nav";
-    }
-}
-</script>
-	</nav>
+        function myFunction() {
+          var x = document.getElementById("mobile-nav");
+          if (x.className === "mobile-nav") {
+              x.className += " responsive";
+          } else {
+            x.className = "mobile-nav";
+          }
+        }
+    </script>
+</nav>
 
 	<header class="header" id="header">
 		<div class="container-fluid">
