@@ -102,6 +102,11 @@ position: absolute;
     top: 110px;
     z-index: 9;
 }
+.mobile-nav li{
+
+    padding: 10px;
+
+}
 
 
 }
