@@ -90,7 +90,7 @@ body {
 	margin-top: -21em !important;
 }
 
-.mobile-nav ul{
+.mobile-nav.responsive ul{
 position: absolute;
     width: 100%;
     max-width: 600px;
