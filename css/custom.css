@@ -199,7 +199,7 @@ position: absolute;
 /* SERVICES */
 
 
-.subtitle > h1 {
+.subtitle > h2 {
   display: inline-block;
   font-size: 35px;
   color: black;
@@ -209,7 +209,7 @@ position: absolute;
   border: 2px solid black;
 }
 
-.subtitle > h1> span{
+.subtitle > h2> span{
   background-color: #B71C46;
 	padding: 10px;
   color: white;
@@ -279,12 +279,12 @@ position: absolute;
 
 /* Portfolio */
 
-.black > h1 {
+.black > h2 {
   color: white;
   border: 2px solid white;
 }
 
-.black > h1> span{
+.black > h2> span{
   background-color: #B71C46;
 	padding: 10px;
   color: black;
